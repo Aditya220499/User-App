@@ -1,0 +1,12 @@
+Docker Commands:
+ 
+1. To check previously running containers in docker: docker ps -a
+2. To verify docker images: docker images
+3. To check previous network: docker network ls
+4. To build single container: docker build .
+5. To build containers in detach mode: docker-compose up -d
+6. To stop single container: docker-compose stop <container name>
+7. To start single container: docker-compose start <container name>
+8. To remove multiple containers, images and networks: docker-compose down --rmi all
+9. To remove cache in docker: docker system prune --volumes
+10. To check all containers in docker: docker ps
